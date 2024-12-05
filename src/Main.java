@@ -7,6 +7,11 @@ import java.util.regex.Pattern;
 public class Main {
     private static final Pattern PATTERN = Pattern.compile("^([1-9]|10)\\s*([+\\-*/])\\s*([1-9]|10)$");
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(scanner.nextLine());
+    }
+
     public static String calc(String calc) {
         Matcher matcher = PATTERN.matcher(calc);
 
