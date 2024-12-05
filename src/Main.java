@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println(scanner.nextLine());
+        System.out.println(calc(scanner.nextLine()));
     }
 
     public static String calc(String calc) {
